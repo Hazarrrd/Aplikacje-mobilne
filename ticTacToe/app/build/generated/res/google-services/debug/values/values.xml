@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1092124234719-9dlfb8agnla6u4t5e6dbgpaf2hljsgd5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tictactoe-eddd0.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1092124234719</string>
+    <string name="google_api_key" translatable="false">AIzaSyBAClvpvMxjMP_hyFM3Yzb_2VkGOg7BA1Q</string>
+    <string name="google_app_id" translatable="false">1:1092124234719:android:326522707aaca0e6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBAClvpvMxjMP_hyFM3Yzb_2VkGOg7BA1Q</string>
+    <string name="google_storage_bucket" translatable="false">tictactoe-eddd0.appspot.com</string>
+    <string name="project_id" translatable="false">tictactoe-eddd0</string>
+</resources>
