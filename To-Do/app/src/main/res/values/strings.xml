@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">To-Do</string>
+    <string-array name="filtr">
+        <item>Dodanie</item>
+        <item>Data</item>
+        <item>Priorytet</item>
+        <item>Obrazek</item>
+    </string-array>
+</resources>

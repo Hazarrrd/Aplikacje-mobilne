@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Each List Item is displayed as TextView defined below -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:background="@android:color/darker_gray">
+
+        <TextView
+                android:id="@+id/priority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+id/label"
+                android:textSize="30px" tools:text="priority"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:textColor="@color/colorAccent"
+                app:layout_constraintStart_toStartOf="@+id/time" app:layout_constraintHorizontal_bias="0.75">
+        </TextView>
+        <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/picture"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gloves"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+id/label"
+                android:textSize="30px"
+                tools:text="time"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/priority"
+                app:layout_constraintBottom_toBottomOf="@+id/picture"
+                app:layout_constraintVertical_bias="1.0" android:textColor="@color/colorPrimary">
+        </TextView>
+        <TextView
+                android:id="@+id/text"
+                android:layout_height="0dp"
+                android:text="@+id/label"
+                android:textSize="30px"
+                tools:text="texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext"
+                app:layout_constraintStart_toEndOf="@+id/picture"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/time" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="@+id/picture"
+                android:layout_width="0dp" android:maxLines="3" android:textStyle="bold">
+        </TextView>
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
