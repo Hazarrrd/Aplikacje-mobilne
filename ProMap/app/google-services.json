@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491156429574",
+    "firebase_url": "https://engaged-arcanum-243012.firebaseio.com",
+    "project_id": "engaged-arcanum-243012",
+    "storage_bucket": "engaged-arcanum-243012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491156429574:android:ede3e5f0472d2467",
+        "android_client_info": {
+          "package_name": "com.example.promap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491156429574-fcsafri8m6djav04fu5saljh73h2e09i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTj5rRP-zD3PVW23L8_NsYa5cihn0mDlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491156429574-fcsafri8m6djav04fu5saljh73h2e09i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

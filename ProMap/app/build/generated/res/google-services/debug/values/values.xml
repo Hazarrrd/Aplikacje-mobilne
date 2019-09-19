@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">491156429574-fcsafri8m6djav04fu5saljh73h2e09i.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://engaged-arcanum-243012.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">491156429574</string>
+    <string name="google_api_key" translatable="false">AIzaSyCTj5rRP-zD3PVW23L8_NsYa5cihn0mDlw</string>
+    <string name="google_app_id" translatable="false">1:491156429574:android:ede3e5f0472d2467</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCTj5rRP-zD3PVW23L8_NsYa5cihn0mDlw</string>
+    <string name="google_storage_bucket" translatable="false">engaged-arcanum-243012.appspot.com</string>
+    <string name="project_id" translatable="false">engaged-arcanum-243012</string>
+</resources>
